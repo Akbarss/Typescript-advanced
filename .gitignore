@@ -1,5 +1,1 @@
-
-*node_modules/*
-.pnp
-.pnp.js
-.vscode
+node_modules
