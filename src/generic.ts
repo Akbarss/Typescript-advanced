@@ -1,15 +1,15 @@
 const cars: string[] = ["Ford", "Audi"];
 const cars2: Array<string> = ["Ford", "Audi"];
 
-const promise = new Promise<number>((resolve) => {
-  setTimeout(() => {
-    resolve(new Date().getHours());
-  }, 1000);
-});
+// const promise = new Promise<number>((resolve) => {
+//   setTimeout(() => {
+//     resolve(new Date().getHours());
+//   }, 1000);
+// });
 
-promise.then((data) => {
-  alert(data.toFixed() + `${"this is hours"}`);
-});
+// promise.then((data) => {
+//   alert(data.toFixed() + `${"this is hours"}`);
+// });
 
 type T = {
   name: string;

@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
   }
 }
