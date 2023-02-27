@@ -19,6 +19,7 @@ function pay() {
     }, {
     onSuccess: function (options) { // success
       //действие при успешной оплате
+      console.log(options);
     },
     onFail: function (reason, options) { // fail
       //действие при неуспешной оплате

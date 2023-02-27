@@ -25,3 +25,19 @@ function mergeObjects<T, R>(a: T, b: R) {
 
 const merged = mergeObjects({ name: "Akbar" }, { age: 18 });
 console.log(merged.name, merged.age);
+
+// =============================================
+
+function getObjectValue<T extends object, R extends keyof T>(obj: T, key: R) {
+  return obj[key];
+}
+
+const person = {
+  name: "Akbar",
+  age: 18,
+  job: "Developer Web",
+};
+
+console.log(getObjectValue(person, "name"));
+console.log(getObjectValue(person, "age"));
+console.log(getObjectValue(person, "job"));
